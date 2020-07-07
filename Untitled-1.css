@@ -1,0 +1,30 @@
+@keyframes rainbow{
+    0%{
+        background-color: red;
+        width: 500px;
+    }
+    25%{
+        background-color: yellow;
+        width: 200px;
+    }
+    50%{
+        background-color: blue;
+        width: 300px;
+    }
+    100%{
+        background-color: green;
+        width: 200px;
+    }
+}
+div{
+    animation-name: rainbow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    border-radius: 5px;
+    font-family: 'Notable', sans-serif;
+}
+div p {
+    text-align: center;
+}
