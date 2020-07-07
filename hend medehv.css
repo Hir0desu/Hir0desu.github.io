@@ -1,0 +1,16 @@
+h1{
+    -webkit-text-fill-color: blue;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 200px;
+    text-shadow: 2px 2px rgb(64, 64, 64, 0.5)
+}
+body{
+    background-color:yellow ;
+}
+style{
+    font-style: italic;
+}
